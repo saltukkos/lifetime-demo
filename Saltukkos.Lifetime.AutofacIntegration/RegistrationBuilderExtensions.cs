@@ -18,6 +18,7 @@ namespace Saltukkos.Lifetime.AutofacIntegration
 
             builder.OnActivating(args =>
             {
+                Debug.Assert(args != null, nameof(args) + " != null");
                 var context = args.Context;
                 var instance = args.Instance;
 
