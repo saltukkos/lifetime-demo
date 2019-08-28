@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Saltukkos.Demo.Application\Saltukkos.Demo.Application.csproj" />
+    <ProjectReference Include="..\Saltukkos.Lifetime.AutofacIntegration\Saltukkos.Lifetime.AutofacIntegration.csproj" />
+  </ItemGroup>
+
+</Project>
