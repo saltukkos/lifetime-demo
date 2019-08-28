@@ -1,4 +1,5 @@
-﻿using JetBrains.Annotations;
+﻿using System;
+using JetBrains.Annotations;
 
 namespace Saltukkos.Lifetime.Abstractions
 {
@@ -6,5 +7,7 @@ namespace Saltukkos.Lifetime.Abstractions
     {
         [NotNull]
         INestedLifetime CreateLifetime();
+
+        void AddDisposeAction([NotNull] Action action);
     }
 }

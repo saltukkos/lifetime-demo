@@ -1,6 +1,8 @@
-﻿namespace Saltukkos.Lifetime.Abstractions
+﻿using System;
+
+namespace Saltukkos.Lifetime.Abstractions
 {
-    public interface INestedLifetime
+    public interface INestedLifetime : ILifetime, IDisposable
     {
     }
 }

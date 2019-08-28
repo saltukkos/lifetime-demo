@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<assembly name="Autofac">
+	<member name="P:Autofac.Core.IActivatedEventArgs`1.Instance">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.ILifetimeScope.Tag">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Core.IActivatingEventArgs`1.Instance">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Core.IComponentRegistration.Target">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Core.Lifetime.MatchingScopeLifetime.TagsToMatch">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.RegistrationExtensions.WithParameter``3(Autofac.Builder.IRegistrationBuilder{``0,``1,``2},Autofac.Core.Parameter)">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.Core.IComponentRegistry.RegistrationsFor(Autofac.Core.Service)">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.RegistrationExtensions.AutoActivate``3(Autofac.Builder.IRegistrationBuilder{``0,``1,``2})">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.RegistrationExtensions.AsSelf``2(Autofac.Builder.IRegistrationBuilder{``0,``1,Autofac.Builder.SingleRegistrationStyle})">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.Builder.IRegistrationBuilder`3.As``1">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.ResolutionExtensions.Resolve``1(Autofac.IComponentContext,Autofac.Core.Parameter[])">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.Builder.IRegistrationBuilder`3.InstancePerLifetimeScope">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.RegistrationExtensions.RegisterGeneric(Autofac.ContainerBuilder,System.Type)">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Builder.IRegistrationBuilder`3.ActivatorData">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Builder.ReflectionActivatorData.ImplementationType">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Core.IInstanceActivator.LimitType">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.IComponentContext.ComponentRegistry">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Builder.IRegistrationBuilder`3.RegistrationData">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Builder.RegistrationData.ActivatingHandlers">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.ILifetimeScope.Disposer">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Core.IActivatingEventArgs`1.Context">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Core.IActivatingEventArgs`1.Parameters">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Core.ActivatingEventArgs`1.Instance">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="P:Autofac.Core.IComponentRegistration.Activator">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.Builder.RegistrationExtensions.TypedParameterMapping``3(Autofac.Builder.IRegistrationBuilder{``0,``1,``2})">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.ContainerBuilder.Build(Autofac.Builder.ContainerBuildOptions)">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.ResolutionExtensions.Resolve``1(Autofac.IComponentContext)">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.ResolutionExtensions.Resolve(Autofac.IComponentContext,System.Type)">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.RegistrationExtensions.RegisterType(Autofac.ContainerBuilder,System.Type)">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.RegistrationExtensions.RegisterType``1(Autofac.ContainerBuilder)">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.RegistrationExtensions.RegisterInstance``1(Autofac.ContainerBuilder,``0)">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.RegistrationExtensions.WithParameter``3(Autofac.Builder.IRegistrationBuilder{``0,``1,``2},System.Func{System.Reflection.ParameterInfo,Autofac.IComponentContext,System.Boolean},System.Func{System.Reflection.ParameterInfo,Autofac.IComponentContext,System.Object})">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.ILifetimeScope.BeginLifetimeScope(System.Object)">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.ILifetimeScope.BeginLifetimeScope(System.Action{Autofac.ContainerBuilder})">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.ILifetimeScope.BeginLifetimeScope(System.Object,System.Action{Autofac.ContainerBuilder})">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>	
+	<member name="M:Autofac.RegistrationExtensions.Register``1(Autofac.ContainerBuilder,System.Func{Autofac.IComponentContext,``0})">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.RegistrationExtensions.AsImplementedInterfaces``2(Autofac.Builder.IRegistrationBuilder{``0,``1,Autofac.Builder.SingleRegistrationStyle})">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.Builder.IRegistrationBuilder`3.SingleInstance">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+	<member name="M:Autofac.RegistrationExtensions.WithParameters``3(Autofac.Builder.IRegistrationBuilder{``0,``1,``2},System.Collections.Generic.IEnumerable{Autofac.Core.Parameter})">
+		<attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+	</member>
+</assembly>
